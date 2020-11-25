@@ -14,17 +14,7 @@
       </div>
 
       <div class="padding-lg">
-        <p class="text-sm">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
+        <p class="text-sm">Vad skulle jag kunna skriva här?</p>
       </div>
 
       <div class="centerContainer">
@@ -39,15 +29,23 @@
                 src="../assets/naturkollen.png"
                 class="img-fluid, projectImg"
               />
-              <p class="text-sm">Naturkollen</p></a
-            >
+              <h1 class="title-sm">Naturkollen</h1>
+              <br />
+              <p class="text-sm">Byggd med Vue Cli 3</p>
+              <img src="../assets/logo.png" class="img-fluid, vueIcon" />
+            </a>
+
             <a
               href="https://react-template-oak.herokuapp.com/"
               class="projectLinks"
             >
               <img src="../assets/movies.png" class="img-fluid, projectImg" />
-              <p class="text-sm">React movie app</p></a
-            >
+              <h1 class="title-sm">React movie app</h1>
+              <br />
+              <p class="text-sm">Byggd med React</p>
+              <img src="../assets/reactIcon.svg" class="img-fluid, vueIcon" />
+            </a>
+
             <a
               href="https://gearfornature.herokuapp.com/#/"
               class="projectLinks"
@@ -56,8 +54,11 @@
                 src="../assets/gearForNature.png"
                 class="img-fluid, projectImg"
               />
-              <p class="text-sm">gearForNature</p></a
-            >
+              <h1 class="title-sm">gearForNature</h1>
+              <br />
+              <p class="text-sm">Byggd med Vue Cli 3</p>
+              <img src="../assets/logo.png" class="img-fluid, vueIcon" />
+            </a>
           </div>
         </div>
       </div>

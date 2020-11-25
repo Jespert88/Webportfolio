@@ -1,3 +1,8 @@
+/* 
+=========================
+        Desktop
+=========================
+*/
 .Index {
   height: 100vh;
   background-color: var(--primary-color);
@@ -20,13 +25,18 @@
   height: 270px;
   width: 270px;
   border-radius: 50%;
-  border: 3px solid var(--veryDarkBlue);
+  border: 3px solid var(--textBlack);
 }
 .projectImg:hover {
   border: 3px solid #357d9c;
 }
 .projectLinks {
   text-decoration: none !important;
+}
+
+.vueIcon {
+  height: 40px;
+  width: 40px;
 }
 
 /* 
@@ -49,16 +59,142 @@
   }
 
   .projectImg {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid var(--veryDarkBlue);
+  }
+
+  .vueIcon {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+/* 
+=========================
+    Mobile landscape
+=========================
+*/
+@media (min-width: 740px) and (max-width: 360px) {
+  .indexFlex {
+    display: block;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .leftContainer {
+    width: auto;
+  }
+  .rightContainer {
+    width: auto;
+  }
+
+  .projectImg {
     height: 80px;
     width: 80px;
     border-radius: 50%;
     border: 3px solid var(--veryDarkBlue);
   }
+
+  .vueIcon {
+    height: 30px;
+    width: 30px;
+  }
 }
+
 /* 
 =========================
         Tablets
 =========================
 */
 @media (min-width: 768px) and (max-width: 1024px) {
+  .indexFlex {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .leftContainer {
+    width: auto;
+  }
+  .rightContainer {
+    width: auto;
+  }
+
+  .projectImg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid var(--veryDarkBlue);
+  }
+
+  .vueIcon {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* 
+=========================
+    Tablets Landscape
+=========================
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .indexFlex {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .leftContainer {
+    width: 30%;
+  }
+  .rightContainer {
+    width: 100%;
+  }
+
+  .projectImg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid var(--veryDarkBlue);
+  }
+
+  .vueIcon {
+    height: 40px;
+    width: 40px;
+  }
+}
+
+/* 
+=========================
+    Tablets Landscape
+=========================
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .indexFlex {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .leftContainer {
+    width: 30%;
+  }
+  .rightContainer {
+    width: 100%;
+  }
+
+  .projectImg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid var(--veryDarkBlue);
+  }
+
+  .vueIcon {
+    height: 40px;
+    width: 40px;
+  }
 }

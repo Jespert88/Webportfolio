@@ -1,3 +1,8 @@
+/* 
+=========================
+        Desktop
+=========================
+*/
 #Sidebar {
   height: 100vh;
   width: 300px;
@@ -7,6 +12,10 @@
 .linkIcons {
   height: 40px;
   width: 40px;
+}
+.githubIcon {
+  height: 50px;
+  width: 50px;
 }
 
 #Selfie {
@@ -56,5 +65,48 @@
     height: 100vh;
     width: 300px;
     background-color: var(--darkBlue);
+  }
+
+  .linkIcons {
+    height: 50px;
+    width: 50px;
+  }
+
+  #Selfie {
+    border: 2px solid #222;
+    border-radius: 50%;
+  }
+
+  #phoneIcon {
+    height: 35px;
+    width: 30px;
+  }
+}
+
+/* 
+=========================
+    Tablets Landscape
+=========================
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #Sidebar {
+    height: 100vh;
+    width: 300px;
+    background-color: var(--darkBlue);
+  }
+
+  .linkIcons {
+    height: 50px;
+    width: 50px;
+  }
+
+  #Selfie {
+    border: 2px solid #222;
+    border-radius: 50%;
+  }
+
+  #phoneIcon {
+    height: 35px;
+    width: 30px;
   }
 }

@@ -32,6 +32,14 @@
         <p class="text-sm-white"><b>Mobil:</b> 0768970571</p>
       </div>
     </div>
+    <div class="centerContainer">
+      <div class="padding-sm">
+        <a href="https://github.com/Jespert88">
+          <img src="../assets/github.png" class="img-fluid, githubIcon" />
+          <p class="text-sm-white">Github</p>
+        </a>
+      </div>
+    </div>
   </div>
 </template>
 
