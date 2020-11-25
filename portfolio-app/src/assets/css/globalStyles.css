@@ -1,0 +1,224 @@
+/* Lato font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+/* Open Sans font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif; */
+
+/* 
+=========================
+      Global varibles
+=========================
+*/
+:root {
+  /* Colors */
+  --primary-color: #a6c3d8;
+  --darkBlue: #265a71;
+  --veryDarkBlue: #3e4a68;
+  --white: #fff;
+  --grey: #f2f2f2;
+  --textBlack: #333;
+  --black: #000;
+
+  /* Fonts */
+  --lato: 'Lato', sans-serif;
+  --open-sans: 'Open Sans', sans-serif;
+  --montserrat: 'Montserrat', sans-serif;
+}
+
+/* 
+=========================
+          Text
+=========================
+*/
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.title-lg {
+  font-size: 40px;
+  color: var(--textBlack);
+  font-family: var(--lato);
+}
+.title-sm {
+  font-size: 25px;
+  color: var(--textBlack);
+}
+.text-sm {
+  font-size: 18px;
+  font-weight: lighter;
+  color: var(--textBlack);
+}
+.text-bold {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--textBlack);
+}
+/* White text */
+.title-lg-white {
+  font-size: 40px;
+  color: var(--white);
+}
+.title-sm-white {
+  font-size: 25px;
+  color: var(--white);
+}
+.text-sm-white {
+  font-size: 18px;
+  font-weight: lighter;
+  color: var(--white);
+}
+.text-bold-white {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--white);
+}
+/* 
+=========================
+      End of Text
+=========================
+*/
+
+/* 
+=========================
+        Containers
+=========================
+*/
+.pageContainer {
+  position: relative;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  background-color: var(--grey);
+  /*  background-repeat: no-repeat; */
+  /* background-image: url("../img/wallpaper3.jpg"); */
+}
+
+.sectionContainer {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 10px 40px;
+  background-color: var(--white);
+}
+
+.centerContainer {
+  display: flexbox;
+  align-items: center;
+  text-align: center;
+}
+
+.absoluteCenterContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.padding-xl {
+  padding: 60px;
+}
+.padding-lg {
+  padding: 45px;
+}
+.padding-sm {
+  padding: 5px;
+}
+.margin-xl {
+  margin: 60px;
+}
+.margin-lg {
+  margin: 20px;
+}
+.margin-sm {
+  margin: 5px;
+}
+
+/* 
+=========================
+    End of Containers
+=========================
+*/
+
+/* 
+=========================
+    Flexbox & Grid
+=========================
+*/
+.flex {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-content: center;
+}
+/* 
+==========================
+    End of Flexbox & Grid
+==========================
+*/
+
+/* 
+=========================
+        Mobile
+=========================
+*/
+@media (min-width: 360px) and (max-width: 600px) {
+  .sectionContainer {
+    overflow: none;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+}
+/* 
+=========================
+        Tablets
+=========================
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sectionContainer {
+    overflow: none;
+  }
+  .flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

@@ -1,0 +1,64 @@
+.Index {
+  height: 100vh;
+  background-color: var(--primary-color);
+}
+
+.indexFlex {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.leftContainer {
+  width: 27%;
+}
+.rightContainer {
+  width: 100%;
+}
+
+.projectImg {
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+  border: 3px solid var(--veryDarkBlue);
+}
+.projectImg:hover {
+  border: 3px solid #357d9c;
+}
+.projectLinks {
+  text-decoration: none !important;
+}
+
+/* 
+=========================
+        Mobile
+=========================
+*/
+@media (min-width: 360px) and (max-width: 600px) {
+  .indexFlex {
+    display: block;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .leftContainer {
+    width: auto;
+  }
+  .rightContainer {
+    width: auto;
+  }
+
+  .projectImg {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 3px solid var(--veryDarkBlue);
+  }
+}
+/* 
+=========================
+        Tablets
+=========================
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+}
