@@ -42,7 +42,7 @@
               <img src="../assets/movies.png" class="img-fluid, projectImg" />
               <h1 class="title-sm">React movie app</h1>
               <br />
-              <p class="text-sm">Byggd med React</p>
+              <p class="text-sm">Byggd med React + The MovieDB API</p>
               <img src="../assets/reactIcon.svg" class="img-fluid, vueIcon" />
             </a>
 
